@@ -22,7 +22,7 @@
         <tbody>
         <tr>
           <td class="md-offset-3">
-            <img style="margin-left: 135px;" src="<?php echo SURL. 'assets/img/Capture4.PNG' ?>">
+            <img style="margin-left: 135px;" src="<?php echo base_url(). 'assets/img/Capture4.PNG' ?>">
                   <p style="margin-left: 670px;">Date of Admission:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp28-2-2018 </p> 
      <table border="1">
         <tbody>
@@ -128,7 +128,7 @@
         <tbody>
         <tr>
           <td class="md-offset-3">
-            <img style="margin-left: 135px;" src="<?php echo SURL. 'assets/img/Capture4.PNG' ?>">
+            <img style="margin-left: 135px;" src="<?php echo base_url(). 'assets/img/Capture4.PNG' ?>">
                   <p style="margin-left: 670px;">Date of Admission:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp28-2-2018 </p> 
      <table border="1">
         <tbody>
@@ -242,7 +242,7 @@
         <tbody>
         <tr>
           <td class="md-offset-3">
-            <img style="margin-left: 135px;" src="<?php echo SURL. 'assets/img/Capture4.PNG' ?>">
+            <img style="margin-left: 135px;" src="<?php echo base_url(). 'assets/img/Capture4.PNG' ?>">
                   <p style="margin-left: 670px;">Date of Admission:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp28-2-2018 </p> 
      <table border="1">
         <tbody>
