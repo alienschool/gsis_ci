@@ -27,7 +27,7 @@
                                             </div>
                                             <div class="portlet-body form">
                                                 <!-- BEGIN FORM-->
-                                                <form action="<?php echo SURL. 'rsgistration/student/add' ?>" id="form_sample_16" class="form-horizontal" method="post" enctype="multipart/form-data">
+                                                <form action="<?php echo base_url(). 'registration/student/add' ?>" id="form_sample_16" class="form-horizontal" method="post" enctype="multipart/form-data">
                                                     <div class="form-body">
                                                     <div class="alert alert-danger display-hide">
                                                 <button class="close" data-close="alert"></button> You have some form errors. Please check below. </div>

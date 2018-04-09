@@ -1851,8 +1851,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                            </div>
                                                                         <br/>
                                              <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Choose Compulsory Subject for O's level</button>
-                                             <div class="form-group form-md-checkboxes">
-                                                <label class="col-md-3 control-label" for="form_control_1" id="demo3" class="collapse"></label>
+                                             <div class="form-group form-md-checkboxes" id="demo3" class="collapse">
+                                                <label class="col-md-3 control-label" for="form_control_1" ></label>
                                                 <div class="col-md-9">
                                                     <div class="md-checkbox-list">
                                                         <div class="md-checkbox">
