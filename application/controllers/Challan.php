@@ -19,7 +19,7 @@ class Challan extends CI_Controller
 		}
 		$data['challan'] = $this->Challan_Model->get_challan($roll);
 		$data['title']=ucfirst($page);
-		$this->load->view($page, $data);
+		$this->load->view($page, $data); 
 	}
 }
 
