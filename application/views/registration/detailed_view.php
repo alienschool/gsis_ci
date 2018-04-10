@@ -1898,46 +1898,48 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     </div>
 
-                                              <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Select Optional Subject for O's level if you want ??</button>
+                                              <button type="button" name="" value="" data-toggle="collapse" data-target="#demo4" class="btn btn-circle btn-secondary btn-sm ">Select Optional Subject for O's level if you want ??</button>
                                                  <div class="form-group form-md-checkboxes">
-                                                <label for="form_control_1">Checkboxes</label>
+                                                <label class="col-md-3 control-label" for="form_control_1"></label>
+                                                <div class="col-md-9">
                                                 <div class="md-checkbox-list">
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_1" name="checkboxes1[]" value="1" class="md-check">
                                                         <label for="checkbox2_1">
                                                             <span></span>
                                                             <span class="check"></span>
-                                                            <span class="box"></span> Option 1 </label>
+                                                            <span class="box"></span> Add.Mathematics </label>
                                                     </div>
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_2" name="checkboxes1[]" value="1" class="md-check">
                                                         <label for="checkbox2_2">
                                                             <span></span>
                                                             <span class="check"></span>
-                                                            <span class="box"></span> Option 2 </label>
+                                                            <span class="box"></span> Environmental Management </label>
                                                     </div>
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_3" name="checkboxes1[]" value="1" class="md-check">
                                                         <label for="checkbox2_3">
                                                             <span></span>
                                                             <span class="check"></span>
-                                                            <span class="box"></span> Option 3 </label>
+                                                            <span class="box"></span> Commerce </label>
                                                     </div>
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_2" name="checkboxes1[]" value="1" class="md-check">
                                                         <label for="checkbox2_2">
                                                             <span></span>
                                                             <span class="check"></span>
-                                                            <span class="box"></span> Option 2 </label>
+                                                            <span class="box"></span> Statistics </label>
                                                     </div>
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_2" name="checkboxes1[]" value="1" class="md-check">
                                                         <label for="checkbox2_2">
                                                             <span></span>
                                                             <span class="check"></span>
-                                                            <span class="box"></span> Option 2 </label>
+                                                            <span class="box"></span> Sociology </label>
                                                     </div>
                                                 </div>
+                                            </div>
                                             </div>
                                                                 </div>
                                                                    <div class="form-group" id="a_levels">

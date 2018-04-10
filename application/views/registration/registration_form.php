@@ -71,7 +71,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text"  id="lname"  data-rule-required="true" pattern="[a-zA-Z0-9\s]+" name="gardian_name" class="form-control" placeholder="" value="">
+                                                                                    <input type="text"  id="lname"  data-rule-required="true" pattern="[a-zA-Z0-9\s]+" name="guardian_name" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -114,7 +114,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text"   name="gardian_national_id" data-rule-required="true" class="form-control" maxlength="15" minlength="15" id="cnic" value="">
+                                                                                    <input type="text"   name="guardian_national_id" data-rule-required="true" class="form-control" maxlength="15" minlength="15" id="cnic" value="">
                                                                                 </div>
                                                                                 <div class="help-block">
                                                                                     
