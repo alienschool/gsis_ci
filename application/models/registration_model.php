@@ -3,25 +3,22 @@
 /**
 * 
 */
-class registraion_model extends CI_Model
+class registration_model extends CI_Model
 {
 	
-	function __construct(argument)
+	function __construct()
 	{
-		# code...
+		$this->load->database();
 	}
 
-	public function register_new_student($student,$guardian,$admission)
+	public function register_new_student($student,$registration,$guardian)
 	{
-		
-		// $fname = $this->input->post('fname');
-	 // 	$lname = $this->input->post('lname');
-	    $this->db->insert('student', $student);
+		$this->db->insert('student', $student);
 	    $student_id = array('student_id' => $this->db->insert_id());
-	    array_merge($guardian, $student_id);
+	    $guardian=array_merge($guardian, $student_id);
 	    $this->db->insert('guardian', $guardian);
-	    array_merge($admission, $student_id);
-	    $this->db->insert('admission', $admission);
+	    $registration=array_merge($registration, $student_id);
+	    $this->db->insert('registration', $registration);
 	}
 }
 

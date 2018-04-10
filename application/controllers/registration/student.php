@@ -9,6 +9,7 @@ class Student extends CI_Controller
 	function __construct()
 	{
 		parent :: __construct();
+		$this->load->model('registration_model');
 	}
 
 	public function register()
@@ -25,14 +26,12 @@ class Student extends CI_Controller
 				,'student_place_of_birth' =>  $this->input->post('student_place_of_birth')
 				,'student_religion' =>  $this->input->post('student_religion')
 				,'student_nationality' =>  $this->input->post('student_nationality')
-				,'student_status' =>  $this->input->post('student_status')
 		);
 		print_r($student);
-		$registration = array('registration_date' =>  $this->input->post('registration_date')
-				,'registration_last_school_name' =>  $this->input->post('registration_last_school_name')
+		$registration = array('registration_last_school_name' =>  $this->input->post('registration_last_school_name')
 				,'registration_last_school_from' =>  $this->input->post('registration_last_school_from')
 				,'registration_last_school_to' =>  $this->input->post('registration_last_school_to')
-				,'registration_reason_for_leaving' =>  $this->input->post('registration_reason_for_leaving')
+				,'registration_last_school_reason_for_leaving' =>  $this->input->post('registration_reason_for_leaving')
 		);
 		print_r($registration);
 		$guardian = array('guardian_name' =>  $this->input->post('guardian_name')
@@ -40,6 +39,7 @@ class Student extends CI_Controller
 				,'guardian_national_id' =>  $this->input->post('guardian_national_id')
 		);
 		print_r($guardian);
+		$this->registration_model->register_new_student($student,$registration,$guardian);
 		exit();
 		// $fname = $this->input->post('fname');
 	 //    $lname = $this->input->post('lname');
