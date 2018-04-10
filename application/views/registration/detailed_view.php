@@ -1850,7 +1850,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                            </div>
                                                                         <br/>
-                                             <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Choose Compulsory Subject for O's level</button>
+                                             <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Edit Compulsory Subject for O's level</button>
                                              <div class="form-group form-md-checkboxes" id="demo3" class="collapse">
                                                 <label class="col-md-3 control-label" for="form_control_1" ></label>
                                                 <div class="col-md-9">
@@ -1877,15 +1877,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="box"></span> Urdu </label>
                                                         </div>
                                                          <div class="md-checkbox">
-                                                            <input type="checkbox" name="checkboxes1[]" value="3" id="checkbox1_211" class="md-check">
-                                                            <label for="checkbox1_211">
+                                                            <input type="checkbox" name="checkboxes1[]" value="4" id="checkbox1_212" class="md-check">
+                                                            <label for="checkbox1_212">
                                                                 <span></span>
                                                                 <span class="check"></span>
                                                                 <span class="box"></span> Islamiat </label>
                                                         </div>
                                                          <div class="md-checkbox">
-                                                            <input type="checkbox" name="checkboxes1[]" value="3" id="checkbox1_211" class="md-check">
-                                                            <label for="checkbox1_211">
+                                                            <input type="checkbox" name="checkboxes1[]" value="5" id="checkbox1_213" class="md-check">
+                                                            <label for="checkbox1_213">
                                                                 <span></span>
                                                                 <span class="check"></span>
                                                                 <span class="box"></span> Pakistan Studies </label>
@@ -1893,8 +1893,49 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
-
-                                                                        </div>
+                                            <br/>
+                                              <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Select Optional Subject for O's level if you want ??</button>
+                                              <div class="form-group form-md-checkboxes">
+                                                <label for="form_control_1">Checkboxes</label>
+                                                <div class="md-checkbox-inline">
+                                                    <div class="md-checkbox">
+                                                        <input type="checkbox" id="checkbox2_4" name="checkboxes2[]" value="1" class="md-check">
+                                                        <label for="checkbox2_4">
+                                                            <span></span>
+                                                            <span class="check"></span>
+                                                            <span class="box"></span> Add. Mathematics </label>
+                                                    </div>
+                                                    <div class="md-checkbox">
+                                                        <input type="checkbox" id="checkbox2_5" name="checkboxes2[]" value="1" class="md-check">
+                                                        <label for="checkbox2_5">
+                                                            <span></span>
+                                                            <span class="check"></span>
+                                                            <span class="box"></span> Environmental Sciences </label>
+                                                    </div>
+                                                    <div class="md-checkbox">
+                                                        <input type="checkbox" id="checkbox2_6" name="checkboxes2[]" value="1" class="md-check">
+                                                        <label for="checkbox2_6">
+                                                            <span></span>
+                                                            <span class="check"></span>
+                                                            <span class="box"></span> Commerce </label>
+                                                    </div>
+                                                    <div class="md-checkbox">
+                                                        <input type="checkbox" id="checkbox2_6" name="checkboxes2[]" value="1" class="md-check">
+                                                        <label for="checkbox2_6">
+                                                            <span></span>
+                                                            <span class="check"></span>
+                                                            <span class="box"></span> Statistics </label>
+                                                    </div>
+                                                    <div class="md-checkbox">
+                                                        <input type="checkbox" id="checkbox2_6" name="checkboxes2[]" value="1" class="md-check">
+                                                        <label for="checkbox2_6">
+                                                            <span></span>
+                                                            <span class="check"></span>
+                                                            <span class="box"></span> Sociology </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                      </div>
                                                                     </div>
                                                                 </div>
                                                                    <div class="form-group" id="a_levels">
@@ -1942,12 +1983,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div> -->
                                                             <!--/span-->
                                                         </div>
+                                                        <div class="form-actions">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <button type="submit" class="btn green">Validate</button>
+                                                    <button type="reset" class="btn default">Reset</button>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                                        
-                                                                <button type="submit" name="action" value="save" class="btn btn-md green-meadow"><i class="glyphicon glyphicon-ok-sign"></i>
+                                                              <!--   <button type="submit" name="action" value="save" class="btn btn-md green-meadow"><i class="glyphicon glyphicon-ok-sign"></i>
                                                                 Submit</button>
                                                                 <button name="action" type="submit" value="submit" class="btn btn-md green-meadow"><i class="glyphicon glyphicon-arrow-right"></i>
-                                                                Print</button>
+                                                                Print</button> -->
                                                                 
                                                             </div>
                                                         </div>
