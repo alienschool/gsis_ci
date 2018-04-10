@@ -1682,7 +1682,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="col-md-6" >
                                                                 <div class="form-group">
                                                                     <div class="form-group">
-                                                                        <label class="control-label col-md-4">Select Class</label>
+                                                                        <label class="control-label col-md-4">Select Class<span class="required" aria-required="true">*</span></label>
                                                                         <div class="col-md-8">
                                                                             <div class="input-group">
                                                                                 <span class="input-group-addon">
@@ -1690,7 +1690,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <select class="form-control" id="type">
+                                                                                    <select class="form-control"  data-rule-required="true"  id="type">
   <option value="">Select</option>                                                                                      
   <option value="ix">IX & X</option>
   <option value="xi">XI & XII</option>
@@ -1893,10 +1893,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
-                                            <br/>
+                                            
+                                                      </div>
+
+                                                                    </div>
+
                                               <button type="button" name="" value="" data-toggle="collapse" data-target="#demo3" class="btn btn-circle btn-secondary btn-sm ">Select Optional Subject for O's level if you want ??</button>
                                               <div class="form-group form-md-checkboxes">
-                                                <label for="form_control_1">Checkboxes</label>
+                                                <label for="form_control_1"></label>
                                                 <div class="md-checkbox-inline">
                                                     <div class="md-checkbox">
                                                         <input type="checkbox" id="checkbox2_4" name="checkboxes2[]" value="1" class="md-check">
@@ -1935,8 +1939,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
-                                                      </div>
-                                                                    </div>
                                                                 </div>
                                                                    <div class="form-group" id="a_levels">
                                                                     <div class="form-group">
