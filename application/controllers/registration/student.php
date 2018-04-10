@@ -21,7 +21,7 @@ class Student extends CI_Controller
 		$osama = array('first_name' =>  $this->input->post('fname'),
 				'last_name' =>  $this->input->post('lname')
 		);
-		echo $osama;
+		print_r($osama);
 		exit();
 		// $fname = $this->input->post('fname');
 	 //    $lname = $this->input->post('lname');
