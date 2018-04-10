@@ -18,8 +18,15 @@ class Student extends CI_Controller
 	}
 	public function add()
 	{
-		$osama = array('first_name' =>  $this->input->post('fname'),
-				'last_name' =>  $this->input->post('lname')
+		$osama = array('student_name' =>  $this->input->post('student_name')
+				,'student_gender' =>  $this->input->post('student_gender')
+				,'student_date_of_birth' =>  $this->input->post('student_date_of_birth')
+				,'student_place_of_birth' =>  $this->input->post('student_place_of_birth')
+				,'student_religion' =>  $this->input->post('student_religion')
+				,'student_nationality' =>  $this->input->post('student_nationality')
+				,'student_is_disable' =>  $this->input->post('student_is_disable')
+				,'student_disability_remarks' =>  $this->input->post('student_disability_remarks')
+				,'student_status' =>  $this->input->post('student_status')
 		);
 		print_r($osama);
 		exit();
