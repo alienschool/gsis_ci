@@ -18,7 +18,8 @@ class Student extends CI_Controller
 	}
 	public function add()
 	{
-		$osama = array('student_name' =>  $this->input->post('student_name')
+		$student = array('student_name' =>  $this->input->post('student_name')
+				,'student_national_id' =>  $this->input->post('student_national_id')
 				,'student_gender' =>  $this->input->post('student_gender')
 				,'student_date_of_birth' =>  $this->input->post('student_date_of_birth')
 				,'student_place_of_birth' =>  $this->input->post('student_place_of_birth')
@@ -26,7 +27,19 @@ class Student extends CI_Controller
 				,'student_nationality' =>  $this->input->post('student_nationality')
 				,'student_status' =>  $this->input->post('student_status')
 		);
-		print_r($osama);
+		print_r($student);
+		$registration = array('registration_date' =>  $this->input->post('registration_date')
+				,'registration_last_school_name' =>  $this->input->post('registration_last_school_name')
+				,'registration_last_school_from' =>  $this->input->post('registration_last_school_from')
+				,'registration_last_school_to' =>  $this->input->post('registration_last_school_to')
+				,'registration_reason_for_leaving' =>  $this->input->post('registration_reason_for_leaving')
+		);
+		print_r($registration);
+		$guardian = array('guardian_name' =>  $this->input->post('guardian_name')
+				,'relashionship_to_child' =>  'father'
+				,'guardian_national_id' =>  $this->input->post('guardian_national_id')
+		);
+		print_r($guardian);
 		exit();
 		// $fname = $this->input->post('fname');
 	 //    $lname = $this->input->post('lname');
