@@ -95,7 +95,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text" data-rule-required="true"  id="cnic2" maxlength="15" minlength="15" name="student_cnic" class="form-control" placeholder="" value="">
+                                                                                    <input type="text" data-rule-required="true"  id="cnic2" maxlength="15" minlength="15" name="student_national_id" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -114,7 +114,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text"   name="parent_cnic" data-rule-required="true" class="form-control" maxlength="15" minlength="15" id="cnic" value="">
+                                                                                    <input type="text"   name="gardian_national_id" data-rule-required="true" class="form-control" maxlength="15" minlength="15" id="cnic" value="">
                                                                                 </div>
                                                                                 <div class="help-block">
                                                                                     
@@ -139,7 +139,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <select class="form-control"   id="gender" name="gender"  required>
+                                                                                    <select class="form-control"   id="gender" name="student_gender"  required>
                                                                                <option value="">Select</option>
                                                                                <option value="male" >Male</option>
                                                                                <option value="female">Female</option>
@@ -158,7 +158,7 @@
                                                                         <div class="input-group">
                                                                            
                                                                            <div class="input-group input-medium date date-picker"  data-date-format="yyyy-mm-dd" data-date-viewmode="years">
-                                                                                <input type="date" id="blood" name="date_of_birth" data-rule-required="true" value="" class="form-control" >
+                                                                                <input type="date" id="blood" name="student_date_of_birth" data-rule-required="true" value="" class="form-control" >
                                                                                 <span class="input-group-btn">
                                                                                     <button class="btn default" type="button" readonly>
                                                                                         <i class="fa fa-calendar"></i>
@@ -188,7 +188,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <select class="form-control"  id="blood" name="branch" >
+                                                                                    <select class="form-control"  id="blood" name="branch_name" >
                                                                                <option>Select</option>
                                                                                <option value="a" >A</option>
                                                                                <option value="b">B</option>
@@ -213,7 +213,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text" pattern="[a-zA-Z0-9\s]+" name="place_of_birth" id="pob" class="form-control" placeholder="" value="">
+                                                                                    <input type="text" pattern="[a-zA-Z0-9\s]+" name="student_place_of_birth" id="pob" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                                 <div class="help-block">
                                                                                     
@@ -241,7 +241,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <select class="form-control" data-rule-required="true" id="nationality" name="nationality" required>
+                                                                                    <select class="form-control" data-rule-required="true" id="nationality" name="student_nationality" required>
                                                                                     
                                                                                       <option value="">Select</option>
                                                                                        <option value="p">Pakistan</option>
@@ -300,7 +300,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <select class="form-control"  id="religion" name="religion" >
+                                                                                    <select class="form-control"  id="religion" name="student_religion" >
                                                                                <option>Select</option>
                                                                                <option >Isalm</option>
                                                                                <option >christian</option>
@@ -325,7 +325,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="email" data-rule-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  name="email" class="form-control" placeholder="" value="">
+                                                                                    <input type="email" data-rule-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  name="contact_email" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                                 <div class="help-block">
                                                                                     
@@ -379,7 +379,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text" id="phone" data-rule-required="true" minlength="7" maxlength="7" name="office_phone" class="form-control" data-validation="number" value="">
+                                                                                    <input type="text" id="phone" data-rule-required="true" minlength="7" maxlength="7" name="contact_line" class="form-control" data-validation="number" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -398,7 +398,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text" minlength="11" maxlength="11" id="mobile" data-rule-required="true" name="mobile" data-validation="number" class="form-control" placeholder="" value="">
+                                                                                    <input type="text" minlength="11" maxlength="11" id="mobile" data-rule-required="true" name="contact_cell" data-validation="number" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                                 <div class="help-block">
                                                                                     
@@ -426,7 +426,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <textarea type="text" pattern="([a-zA-Z0-9]| |/|\\|@|#|\$|%|&)+"  name="reason_for_leaving" class="form-control"  value=""></textarea>
+                                                                                    <textarea type="text" pattern="([a-zA-Z0-9]| |/|\\|@|#|\$|%|&)+"  name="registration_reason_for_leaving" class="form-control"  value=""></textarea>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -445,7 +445,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <textarea type="text" pattern="([a-zA-Z0-9]| |/|\\|@|#|\$|%|&)+"  name="res_address" class="form-control" placeholder="Permanent" value=""></textarea>
+                                                                                    <textarea type="text" pattern="([a-zA-Z0-9]| |/|\\|@|#|\$|%|&)+"  name="address_local" class="form-control" placeholder="Permanent" value=""></textarea>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -469,7 +469,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="date"  name="Admission_required" class="form-control" placeholder="" value="">
+                                                                                    <input type="date"  name="registration_admission_required_from" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -487,7 +487,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="text" data-rule-required="true" data-rule-maxlength="80" name="last_school" id="las" pattern="[a-zA-Z0-9\s]+" class="form-control" placeholder="" value="">
+                                                                                    <input type="text" data-rule-required="true" data-rule-maxlength="80" name="registration_last_school_name" id="las" pattern="[a-zA-Z0-9\s]+" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -593,7 +593,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="date"  name="last_school_from" class="form-control" placeholder="" value="">
+                                                                                    <input type="date"  name="registration_last_school_from" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -612,7 +612,7 @@
                                                                                 </span>
                                                                                 <div class="input-icon right">
                                                                                     <i class="fa"></i>
-                                                                                    <input type="date"  name="last_school_to" class="form-control" placeholder="" value="">
+                                                                                    <input type="date"  name="registration_last_school_to" class="form-control" placeholder="" value="">
                                                                                 </div>
                                                                             </div>
                                                                         </div>
