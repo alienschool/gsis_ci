@@ -24,8 +24,6 @@ class Student extends CI_Controller
 				,'student_place_of_birth' =>  $this->input->post('student_place_of_birth')
 				,'student_religion' =>  $this->input->post('student_religion')
 				,'student_nationality' =>  $this->input->post('student_nationality')
-				,'student_is_disable' =>  $this->input->post('student_is_disable')
-				,'student_disability_remarks' =>  $this->input->post('student_disability_remarks')
 				,'student_status' =>  $this->input->post('student_status')
 		);
 		print_r($osama);
